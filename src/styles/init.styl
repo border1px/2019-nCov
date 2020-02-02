@@ -239,55 +239,9 @@ figure
   .echarts
     width 100%
 @media (min-width 980px)
-  figure.half
-    padding 1em 1.5em
-    min-width calc(240px + 3em)
-    .echarts
-      width 28vw
-      min-width 240px
-      height 180px
-
-    &:not(:last-child)
-      margin-right 15px
-
+  figure
+    width 500px
 @media (max-width 980px)
-  p
-    display flex
-    justify-content center
-
-    select
-      text-indent calc(50% - 1em)
-
-    select,
-    label
-      border 1px solid #4fc08d
-      border-radius 2em
-      background-color #fff
-      color #42b983
-      cursor pointer
-      transition opacity .3s
-
-    button,
-    input,
-    select,
-    label
-      flex 1 0
-      margin 0 .5em
-      padding 0
-      line-height 2.4em
-      max-width 40vw
-      border-radius 2px
-      font-size .8em
-
-    select
-      -webkit-appearance none
-
-    input[type="checkbox"]
-      display none
-
-      &:checked + label
-        background #42b983
-        color #fff
   figure
     width 100vw
     margin 0 auto
@@ -298,23 +252,3 @@ figure
       width 100%
       min-width 0
       height 75vw
-
-  button
-    float left
-    position relative
-    width 48px
-    border-radius 4px
-
-    &.active
-      z-index 1
-      background-color #4fc08d
-      color #fff
-
-    &:first-child
-      border-top-right-radius 0
-      border-bottom-right-radius 0
-
-    &:last-child
-      left -1px
-      border-top-left-radius 0
-      border-bottom-left-radius 0

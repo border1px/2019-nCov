@@ -68,7 +68,7 @@ export default {
         title: '数据说明',
         msg: `
           <div>
-            <div>0. 数据爬取自【腾讯新闻】,在原有基础上增加了“省”一级的疫情地图。(仅供学习研究，<a href="http://www.baidu.com">[查看源代码]</a>)</div><br>
+            <div>0. 数据爬取自【腾讯新闻】,在原有基础上增加了“省”一级的疫情地图。(仅供学习研究，<a href="https://github.com/border-1px/2019-nCov">[查看源代码]</a>)</div><br>
             <div>以下内容为腾讯数据声明：</div>
             <div>1. 全部数据来源于国家卫健委、各省卫健委以及权威媒体报道。</div><br>
             <div>2. 腾讯新闻的统计方法如下：</div>
