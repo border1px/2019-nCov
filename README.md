@@ -1,24 +1,28 @@
-# 2019-nCoV
+### 缘起
+此次肺炎疫情波及甚广，只能自封于家中看看新闻、打打游戏。
+昨天看了```山月```大佬的[《武汉肺炎疫情实时动态省市地图开发》](https://juejin.im/post/5e312aedf265da3e3e7548ff)心潮澎湃，决定拿起键盘照撸一个。开发时间较短，bug在所难免，各位大佬见谅。
 
-## Project setup
-```
-npm install
-```
+![](https://user-gold-cdn.xitu.io/2020/2/2/17004d09534b9196?w=2169&h=2310&f=png&s=1298299)
 
-### Compiles and hot-reloads for development
+### 程序基本介绍
+1. 数据抓取自```腾讯新闻```
+2. 图表采用Echarts(内部使用了vue-echarts)
+3. 支持【省】级地图
+4. Vue-cli@3脚手架项目
+5. [查看源代码](https://github.com/border-1px/2019-nCov)
+6. [线上示例](http://101.200.145.232)
+
+### 快速开始
 ```
+# 安装依赖
+npm i
+
+# 抓取腾讯新闻数据
+node ./build-data.js
+
+# 开发模式
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 未实现
+定时执行 build-data.js，抓取最新数据。
