@@ -21,8 +21,8 @@ export default function buildMapData (province) {
   const result = []
 
   if (province) {
-    let provinceMap = require(`echarts/map/js/province/${provincePinyin}`)
-    ECharts.registerMap(provincePinyin, provinceMap)
+    require(`echarts/map/js/province/${provincePinyin}`)
+    // ECharts.registerMap(provincePinyin, provinceMap)
 
     const index = provinces.findIndex(p => {
       return p.name === province

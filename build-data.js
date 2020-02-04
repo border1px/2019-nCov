@@ -16,14 +16,17 @@ function transformChinaData (provinces) {
       } else {
         if (province.name === '陕西') {
           province.pinyin = 'shanxi1'
+          city.cityName = city.name + '市'
         } else if (province.name === '重庆') {
           province.pinyin = 'chongqing'
+          city.cityName = city.name
         } else if (province.name === '西藏') {
           province.pinyin = 'xizang'
+          city.cityName = city.name + '市'
         } else {
           province.pinyin = pinyin(province.name, { style: pinyin.STYLE_NORMAL }).join('')
+          city.cityName = city.name + '市'
         }
-        city.cityName = city.name + '市'
       }
     })
     
