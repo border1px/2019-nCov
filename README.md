@@ -3,6 +3,8 @@
 昨天看了```山月```大佬的[《武汉肺炎疫情实时动态省市地图开发》](https://juejin.im/post/5e312aedf265da3e3e7548ff)心潮澎湃，决定拿起键盘照撸一个。开发时间较短，bug在所难免，各位大佬见谅。
 
 ![](http://blog.likeyo.net/project-ncov2019-1.jpg)
+![](http://blog.likeyo.net/project-ncov2019-2.jpg)
+![](http://blog.likeyo.net/project-ncov2019-3.jpg)
 
 ### 程序基本介绍
 1. 数据抓取自```腾讯新闻```
